@@ -9,10 +9,9 @@ public class Main {
     public static void main(String[] args) {
         String filePath = "src/main/java/com/plurasight/employees.txt";
         System.out.println("================================\n"
-                + "        Employees Dataset\n" +
-                "================================\n");
+                + "       Employee Dataset\n" +
+                "================================");
         loadFile(filePath);
-
     }
 
     public static void loadFile(String filePath) {
